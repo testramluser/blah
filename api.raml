@@ -1,0 +1,13 @@
+#%RAML 1.0
+title: My API
+
+
+schemas:
+  - comic: !include http://gist.githubusercontent.com/y0an/f31fa6449771d69b8d28/raw/3ae3112d9a4f3969d2d84c7c0c642f4ee96e54c2/comic-schema.json
+resourceTypes:
+  - base:  !include http://gist.githubusercontent.com/y0an/3a089190b27596bed143/raw/7adea5ea4ac1ae70febb38e1cce69aa98bb90c40/base.yaml
+
+/test:
+
+  displayName: test
+  get:
