@@ -3,6 +3,6 @@
   "type": "object",
   "properties":
   {
-      "remoteName": { "type": "string", "required": "true" }
+      "megaRemoteName": { "type": "string", "required": true }
   }
 }
