@@ -3,7 +3,7 @@
   "type": "object",
   "properties":
   {
-      "name": { "type": "string", "required": true },
+      "name": { "type": "string", "required": "true" },
       "complexProp" : {"$ref": "./remote.json"}
   },
   "definitions" : {
@@ -12,8 +12,8 @@
       "type": "object",
       "required": "true",
       "properties" : {
-        "p1": { "type": "string", "required": true },
-        "p2": { "type": "string", "required": true },
+        "p1": { "type": "string", "required": "true" },
+        "p2": { "type": "string", "required": "true" },
       }
     }
   }
