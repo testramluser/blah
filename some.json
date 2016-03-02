@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "properties":
+  "definitions" : {
+    "megatype" : {
+      "type": "object",
+      "required": "true",
+      "properties" : {
+        "prop1": { "type": "string", "required": true },
+        "prop2": { "type": "string", "required": true },
+      }
+    }
+  }
+}
