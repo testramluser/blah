@@ -13,7 +13,7 @@
       "required": "true",
       "properties" : {
         "p1": { "type": "string", "required": "true" },
-        "p2": { "type": "string", "required": "true" },
+        "p2": { "type": "string", "required": "true" }
       }
     }
   }
